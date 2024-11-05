@@ -1,0 +1,74 @@
+name: PluginSepratorWorld
+version: '1.0-ALPHA'
+main: me.pluginManagerWorld.PluginSepratorWorld
+api-version: '1.13'
+authors: [AbdelrahmanMoharram, Ahmedabk]
+description: A custom plugin for PracticePlace server to manage plugins in specific worlds.
+commands:
+  pmw:
+    description: Manage plugins in specific worlds
+    usage: /<command> <on|off|disable|enable|plugins|help> <plugin_name|world_name>
+permissions:
+  pluginmanagerworld.admin:
+    description: Allows the player to manage plugins in worlds
+    default: op
+  pluginmanagerworld.admin.all:
+    description: Allow use of all Plugin Manager commands
+    default: op
+  pluginmanagerworld.update:
+    description: Allow user to see update messages
+    default: op
+  pluginmanagerworld.help:
+    description: Allow use of the help command
+    default: op
+  pluginmanagerworld.list:
+    description: Allow use of the list command
+    default: op
+  pluginmanagerworld.info:
+    description: Allow use of the info command
+    default: op
+  pluginmanagerworld.dump:
+    description: Allow use of the dump command
+    default: op
+  pluginmanagerworld.usage:
+    description: Allow use of the usage command
+    default: op
+  pluginmanagerworld.lookup:
+    description: Allow use of the lookup command
+    default: op
+  pluginmanagerworld.enable:
+    description: Allow use of the enable command
+    default: op
+  pluginmanagerworld.enable.all:
+    description: Allow use of the enable all command
+    default: op
+  pluginmanagerworld.disable:
+    description: Allow use of the disable command
+    default: op
+  pluginmanagerworld.disable.all:
+    description: Allow use of the disable all command
+    default: op
+  pluginmanagerworld.restart:
+    description: Allow use of the restart command
+    default: op
+  pluginmanagerworld.restart.all:
+    description: Allow use of the restart all command
+    default: op
+  pluginmanagerworld.load:
+    description: Allow use of the load command
+    default: op
+  pluginmanagerworld.reload:
+    description: Allow use of the reload command
+    default: op
+  pluginmanagerworld.reload.all:
+    description: Allow use of the reload all command
+    default: op
+  pluginmanagerworld.unload:
+    description: Allow use of the unload command
+    default: op
+  pluginmanagerworld.check:
+    description: Allow use of the check command
+    default: op
+  pluginmanagerworld.check.all:
+    description: Allow use of the check all command
+    default: op

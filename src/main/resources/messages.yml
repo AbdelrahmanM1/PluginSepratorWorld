@@ -1,0 +1,23 @@
+messages:
+  help:
+    header: '&b=== Plugin Manager World Help ==='
+    help: '&7/pluginmanagerworld help: Shows this help message.'
+    list: '&7/pluginmanagerworld list: Lists enabled/disabled plugins in your world.'
+    enable: '&7/pluginmanagerworld enable <plugin>: Enables a plugin in your world.'
+    disable: '&7/pluginmanagerworld disable <plugin>: Disables a plugin in your world.'
+    error:
+      no-permission: '&cYou do not have permission to use this command.'
+      specify-plugin: '&cPlease specify a plugin name.'
+      specify-world: '&cPlease specify a world name.'
+      invalid-command: '&cInvalid command. Use /pmw help for help.'
+  info:
+    enabled-plugins: '&aEnabled plugins: {0}'
+    disabled-plugins: '&cDisabled plugins: {0}'
+    no-enabled-plugins: '&cNo plugins are enabled in this world.'
+    no-disabled-plugins: '&cNo plugins are disabled in this world.'
+  enable:
+    enabled: '&aPlugin {0} has been enabled in {1}.'
+    all: '&aAll plugins have been enabled in {0}.'
+  disable:
+    disabled: '&cPlugin {0} has been disabled in {1}.'
+    all: '&cAll plugins have been disabled in {0}.'

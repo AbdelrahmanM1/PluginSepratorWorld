@@ -1,0 +1,7 @@
+# Default configuration for PluginManagerWorld
+
+# Configuration for plugins enabled and disabled in specific worlds
+worlds:
+  world:  # Example of a world, will be filled with actual world names on load
+    enabled-plugins: []     # List of plugins that are enabled in this world
+    disabled-plugins: []     # List of plugins that are disabled in this world
